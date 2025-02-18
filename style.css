@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #02456b;
+  color: white;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.length-control {
+  display: inline-block;
+  padding: auto;
+  width: 250px;
+  font-size: 32px;
+}
+
+button {
+  font-size: 14px;
+  display: inline-block;
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#timer-div {
+  background-color: #02639c;
+  height: 200px;
+  width: 330px;
+  border-radius: 30px;
+  align-items: center;
+  display: block;
+  justify-content: center;
+  margin: 20px auto 10px auto;
+  border: 7px solid #13353a;
+}
+#timer-label {
+  font-size: 25px;
+  margin-top: 15px;
+  padding-bottom: 0px;
+}
+#time-left {
+  font-size: 100px;
+  margin-bottom: 15px;
+}
+p {
+  font-size: 12px;
+  margin-top: 15px;
+}
